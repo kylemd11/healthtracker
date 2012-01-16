@@ -28,8 +28,7 @@
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
-			</plugin>
-
+			</plugin>			
 		</plugins>
 	</build>
 	<dependencies>
@@ -46,12 +45,7 @@
         <dependency>
         	<groupId>org.springframework</groupId>
         	<artifactId>spring-context</artifactId>
-        </dependency>
-        <dependency>
-        	<groupId>com.jelastic</groupId>
-        	<artifactId>jelastic-maven-plugin</artifactId>
-        	<scope>system</scope>
-        </dependency>
+        </dependency>        
     </dependencies>
     <dependencyManagement>
     	<dependencies>
@@ -69,18 +63,6 @@
     			<groupId>org.springframework</groupId>
     			<artifactId>spring-context</artifactId>
     			<version>3.1.0.RELEASE</version>
-    		</dependency>
-    		<dependency>
-    			<groupId>com.jelastic</groupId>
-    			<artifactId>jelastic-maven-plugin</artifactId>
-    			<version>1.5</version>
-    			<configuration>
-			     <email>${jelastic.username}</email>
-			     <password>${jelastic.password}</password>
-			     <context><!-- ... --></context>
-			     <environment><!-- ... --></environment>
-			     <api_hoster><!-- ...(default value "api.jelastic.com" or "app.jelastic.servint.net" ) --></api_hoster>
-			  </configuration>
     		</dependency>
     	</dependencies>
     </dependencyManagement>
