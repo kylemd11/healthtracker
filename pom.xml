@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>kyle</groupId>
+	<artifactId>health.tracker</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>health-tracker</name>
+	<description>A simple project with war packaging that depends on JSF 2.1 and 
+        javaee 6, in that order.</description>
+	<url>http://jsf-spec.java.net/</url>
+	<build>
+		<finalName>health-tracker</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.1.1</version>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>javax.faces</groupId>
+			<artifactId>javax.faces-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+        	<groupId>org.springframework</groupId>
+        	<artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+        	<groupId>com.jelastic</groupId>
+        	<artifactId>jelastic-maven-plugin</artifactId>
+        	<scope>system</scope>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+    	<dependencies>
+    		<dependency>
+    			<groupId>javax.faces</groupId>
+    			<artifactId>javax.faces-api</artifactId>
+    			<version>2.1</version>
+    		</dependency>
+    		<dependency>
+    			<groupId>javax</groupId>
+    			<artifactId>javaee-api</artifactId>
+    			<version>6.0</version>
+    		</dependency>
+    		<dependency>
+    			<groupId>org.springframework</groupId>
+    			<artifactId>spring-context</artifactId>
+    			<version>3.1.0.RELEASE</version>
+    		</dependency>
+    		<dependency>
+    			<groupId>com.jelastic</groupId>
+    			<artifactId>jelastic-maven-plugin</artifactId>
+    			<version>1.5</version>
+    			<configuration>
+			     <email>${jelastic.username}</email>
+			     <password>${jelastic.password}</password>
+			     <context><!-- ... --></context>
+			     <environment><!-- ... --></environment>
+			     <api_hoster><!-- ...(default value "api.jelastic.com" or "app.jelastic.servint.net" ) --></api_hoster>
+			  </configuration>
+    		</dependency>
+    	</dependencies>
+    </dependencyManagement>
+</project>

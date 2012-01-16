@@ -1,0 +1,36 @@
+#surefire
+#Sun Jan 15 16:40:12 CST 2012
+testClassesDirectory=C\:\\Users\\Kyle Delap\\workspace-jelastic\\health.tracker\\target\\test-classes
+classPathUrl.4=C\:\\Users\\Kyle Delap\\.m2\\repository\\org\\springframework\\spring-context\\3.1.0.RELEASE\\spring-context-3.1.0.RELEASE.jar
+classPathUrl.3=C\:\\Users\\Kyle Delap\\.m2\\repository\\javax\\javaee-api\\6.0\\javaee-api-6.0.jar
+classPathUrl.2=C\:\\Users\\Kyle Delap\\.m2\\repository\\javax\\faces\\javax.faces-api\\2.1\\javax.faces-api-2.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=C\:\\Users\\Kyle Delap\\workspace-jelastic\\health.tracker\\target\\classes
+reportsDirectory=C\:\\Users\\Kyle Delap\\workspace-jelastic\\health.tracker\\target\\surefire-reports
+classPathUrl.0=C\:\\Users\\Kyle Delap\\workspace-jelastic\\health.tracker\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=C\:\\Users\\Kyle Delap\\workspace-jelastic\\health.tracker\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\Kyle Delap\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=C\:\\Users\\Kyle Delap\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit3\\2.7.1\\surefire-junit3-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=C\:\\Users\\Kyle Delap\\workspace-jelastic\\health.tracker\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.11=C\:\\Users\\Kyle Delap\\.m2\\repository\\org\\springframework\\spring-asm\\3.1.0.RELEASE\\spring-asm-3.1.0.RELEASE.jar
+classPathUrl.10=C\:\\Users\\Kyle Delap\\.m2\\repository\\org\\springframework\\spring-expression\\3.1.0.RELEASE\\spring-expression-3.1.0.RELEASE.jar
+classPathUrl.9=C\:\\Users\\Kyle Delap\\.m2\\repository\\commons-logging\\commons-logging\\1.1.1\\commons-logging-1.1.1.jar
+classPathUrl.8=C\:\\Users\\Kyle Delap\\.m2\\repository\\org\\springframework\\spring-core\\3.1.0.RELEASE\\spring-core-3.1.0.RELEASE.jar
+classPathUrl.7=C\:\\Users\\Kyle Delap\\.m2\\repository\\org\\springframework\\spring-beans\\3.1.0.RELEASE\\spring-beans-3.1.0.RELEASE.jar
+childDelegation=false
+classPathUrl.6=C\:\\Users\\Kyle Delap\\.m2\\repository\\aopalliance\\aopalliance\\1.0\\aopalliance-1.0.jar
+classPathUrl.5=C\:\\Users\\Kyle Delap\\.m2\\repository\\org\\springframework\\spring-aop\\3.1.0.RELEASE\\spring-aop-3.1.0.RELEASE.jar
